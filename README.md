@@ -15,8 +15,9 @@
   - [x] 节流函数：`throttle.ts`
   - [x] 随机函数：`sample.js`
   - [x] 单次执行函数：`once.ts`
-  - [x] 深拷贝函数：`cloneDeep`
+  - [ ] 深拷贝函数：`cloneDeep`
   - [x] 深比较函数：`isEqual`
+  - [x] 深度get属性函数：`get`
   - [ ] 洗牌函数：`shuffle`
   - [ ] 模板引擎：`template`
   - [ ] 统计相关：`maxBy`、`groupBy` 、`keyBy`
