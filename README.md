@@ -14,6 +14,7 @@
   - [x] 防抖函数：`debounce.ts`(时间戳+apply)
   - [x] 节流函数：`throttle.ts`
   - [x] 随机函数：`sample.js`(Math.random)
+  - [x] 随机函数(N版)： `sampleSize.ts`(shuffle+slice)
   - [x] 单次执行函数：`once.ts`(函数作用域)
   - [ ] 深拷贝函数：`cloneDeep`
   - [x] 深比较函数：`deepEqual`(递归+Object.keys())
@@ -21,8 +22,11 @@
   - [x] 洗牌函数：`shuffle`（Array.sort+Math.random()-0.5）
   - [ ] 模板引擎：`template`
   - [x] 分组函数：`chunk`（Math.floor(i/size)）可以对索引分组
-  - [x] 统计相关：`maxBy`、`groupBy` 、`keyBy`
+  - [x] 统计相关：`maxBy`(reduce返回单个和多个区别)、`groupBy`(reduce:{key-[]}) 、`keyBy`(reduce:{})
   - [x] 数组交集函数：`intersection`(reduce、filter、includes)
+- [ ]  `EMScripts API`  
+  - [x] 绑定函数：`bind` 函数
+
 
 ## 题库收集：
 
