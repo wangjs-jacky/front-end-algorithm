@@ -10,17 +10,19 @@
   - [x] `for...of` 遍历：`2.js`
   - [x] `for...in` 与 `for...of` 遍历比较：`3.js`
 - [ ] `lodash` 库的模拟实现
-  - [x] 驼峰转换：`CamelCase.ts`
-  - [x] 防抖函数：`debounce.ts`
+  - [x] 驼峰转换：`CamelCase.ts`(正则)
+  - [x] 防抖函数：`debounce.ts`(时间戳+apply)
   - [x] 节流函数：`throttle.ts`
-  - [x] 随机函数：`sample.js`
-  - [x] 单次执行函数：`once.ts`
+  - [x] 随机函数：`sample.js`(Math.random)
+  - [x] 单次执行函数：`once.ts`(函数作用域)
   - [ ] 深拷贝函数：`cloneDeep`
-  - [x] 深比较函数：`isEqual`
-  - [x] 深度get属性函数：`get`
-  - [ ] 洗牌函数：`shuffle`
+  - [x] 深比较函数：`deepEqual`(递归+Object.keys())
+  - [x] 深度 get 属性函数：`get`(正则处理+replace与$符号)
+  - [x] 洗牌函数：`shuffle`（Array.sort+Math.random()-0.5）
   - [ ] 模板引擎：`template`
-  - [ ] 统计相关：`maxBy`、`groupBy` 、`keyBy`
+  - [x] 分组函数：`chunk`（Math.floor(i/size)）可以对索引分组
+  - [x] 统计相关：`maxBy`、`groupBy` 、`keyBy`
+  - [x] 数组交集函数：`intersection`(reduce、filter、includes)
 
 ## 题库收集：
 
