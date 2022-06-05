@@ -5,10 +5,12 @@
 ## 涉及到题目：
 
 - [x] 手写发布订阅模式：`eventHub`
+
 - [ ] `for` 循环遍历
   - [x] `forEach` 遍历：`1.js`
   - [x] `for...of` 遍历：`2.js`
   - [x] `for...in` 与 `for...of` 遍历比较：`3.js`
+
 - [ ] `lodash` 库的模拟实现
   - [x] 驼峰转换：`CamelCase.ts`(正则)
   - [x] 防抖函数：`debounce.ts`(时间戳+apply)
@@ -24,8 +26,30 @@
   - [x] 分组函数：`chunk`（Math.floor(i/size)）可以对索引分组
   - [x] 统计相关：`maxBy`(reduce返回单个和多个区别)、`groupBy`(reduce:{key-[]}) 、`keyBy`(reduce:{})
   - [x] 数组交集函数：`intersection`(reduce、filter、includes)
+
 - [ ]  `EMScripts API`  
+
   - [x] 绑定函数：`bind` 函数
+
+- [ ] 常规考题：`regularQuestion`
+
+  - [x] 是否可被3、5整除：`fizzBuzz`
+
+  - [x] `promise` + `mapper` 函数 + 并行控制：`promise_map`
+
+    - [x] 并行：通过 `for` 循环实现。
+
+      串行，通过构造`next=()=>{ next() }` 递归执行实现。只要规定好函数体内部的`next` 的执行时机。
+
+    - [x] :star:如何控制异步任务的串行，这里思考了三种写法：
+
+      - [x] 回调地狱写法：`useCallback()`
+
+      - [x] 封装 `promiseTask` 解决串行问题，自动构建`.then` 操作。使用`callback()` 标识任务结束，`callback` 由 `promisify` 传入`resolve()` 函数。
+
+      - [x] 自定义 `next`函数。
+
+        模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
 
 
 ## 题库收集：
