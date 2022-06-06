@@ -26,6 +26,8 @@
   - [x] 数组交集函数：`intersection`(reduce、filter、includes)
 - [ ]  `EMScripts API`  
   - [x] 绑定函数：`bind` 函数
+  - [x] 睡眠函数：`sleep` 函数（`setTimeout`包一层`promise`）
+  - [x] 延迟执行函数：`delay`函数 （传入的`fn` 延迟执行）
 
 - [ ] 常规考题：`regularQuestion`
   - [x] 是否可被3、5整除：`fizzBuzz`
@@ -37,6 +39,9 @@
       - [x] 封装 `promiseTask` 解决串行问题,使用`callback()` 标识任务结束，`callback` 由 `promisify` 传入 `resolve()`  函数，通过循环`.then`  操作串联 `promise` 操作。
       - [x] 自定义 `next`函数。
         模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
+
+  - [x] 异步add相加：`asyncAdd.ts`
+    循环构建`.then` 的两种写法、`for`循环+`await` 写法、二分递归写法、并发控制写法。
 
 
 ## 题库收集：
