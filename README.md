@@ -42,11 +42,26 @@
 
   - [ ] `Array.isArray`
   - [ ] `Array.prototype.reduce`
+  - [x] `Array.prototype.flat`
   - [ ] `String.prototype.trim`
 
 - [ ] 常规考题：`regularQuestion`
 
   - [x] 是否可被3、5整除：`fizzBuzz`
+
+  - [x] 异步add相加：`asyncAdd.ts`
+
+    循环构建`.then` 的两种写法、`for`循环+`await` 写法、二分递归写法、并发控制写法。
+
+  - [ ] 无限累加的 `sum` 函数
+
+  - [ ] 统计数组总最大的数/第二大的数
+
+  - [ ] 统计字符串中出现次数最多的字符
+
+  - [ ] 对数字进行编码压缩
+
+  - [ ] 对 `URL` 的 `querystring` 进行编码和解码
 
   - [x] `promise` + `mapper` 函数 + 并行控制：`promise_map`
 
@@ -63,16 +78,6 @@
       - [x] 自定义 `next`函数。
 
         模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
-
-  - [x] 异步add相加：`asyncAdd.ts`
-
-    循环构建`.then` 的两种写法、`for`循环+`await` 写法、二分递归写法、并发控制写法。
-
-  - [ ] 无限累加的 `sum` 函数
-  - [ ] 统计数组总最大的数/第二大的数
-  - [ ] 统计字符串中出现次数最多的字符
-  - [ ] 对数字进行编码压缩
-  - [ ] 对 `URL` 的 `querystring` 进行编码和解码
 
 ## 题库收集：
 
