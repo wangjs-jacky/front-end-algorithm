@@ -40,10 +40,10 @@
     - [ ] `Promise.allSettled`
     - [ ] `Promise.retry`
 
-  - [ ] `Array.isArray`
-  - [ ] `Array.prototype.reduce`
+  - [x] `Array.isArray`
+  - [x] `Array.prototype.reduce`
   - [x] `Array.prototype.flat`
-  - [ ] `String.prototype.trim`
+  - [x] `String.prototype.trim`
 
 - [ ] 常规考题：`regularQuestion`
 
