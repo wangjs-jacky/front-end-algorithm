@@ -20,7 +20,7 @@
   - [x] 单次执行函数：`once.ts`(函数作用域)
   - [ ] 深拷贝函数：`cloneDeep`
   - [x] 深比较函数：`deepEqual`(递归+Object.keys())
-  - [x] 深度 get 属性函数：`get`(正则处理+replace与$符号)
+  - [x] 深度 get 属性函数：`get`(正则处理+replace与$符号) 
   - [x] 洗牌函数：`shuffle`（Array.sort+Math.random()-0.5）
   - [ ] 模板引擎：`template`
   - [x] 分组函数：`chunk`（Math.floor(i/size)）可以对索引分组
@@ -63,6 +63,8 @@
 
   - [ ] 对 `URL` 的 `querystring` 进行编码和解码
 
+  - [x] 使用 `JS` 如何生成一个随机字符串。（36进制转化或ASCII）
+
   - [x] `promise` + `mapper` 函数 + 并行控制：`promise_map`
 
     - [x] 并行：通过 `for` 循环实现。
@@ -76,7 +78,7 @@
       - [x] 封装 `promiseTask` 解决串行问题,使用`callback()` 标识任务结束，`callback` 由 `promisify` 传入 `resolve()`  函数，通过循环`.then`  操作串联 `promise` 操作。
 
       - [x] 自定义 `next`函数。
-
+  
         模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
 
 ## 题库收集：
