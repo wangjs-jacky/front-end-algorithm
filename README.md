@@ -65,18 +65,32 @@
 
   - [x] 使用 `JS` 如何生成一个随机字符串。（36进制转化或ASCII）
 
+  - [x] 万物皆可取反：`inversion.ts`
+
+  - [x] 经典map+parseInt 面试题：`mapAndParseInt.ts`
+
+  - [x] 包装类的简单说明：`newString.ts`
+
+  - [x] 数据劫持中非常容易犯的错误：`objHijack.ts`
+
+  - [x] 属性顺序：书写顺序？数字顺序？字符顺序？：`attrOrder`
+
+  - [ ] 数字表述：`printNumber.ts`
+
+  - [x] 为什么不使用`undefined`:`whyNotUseUndefined.ts`
+  
   - [x] `promise` + `mapper` 函数 + 并行控制：`promise_map`
-
+  
     - [x] 并行：通过 `for` 循环实现。
-
+  
       串行，通过构造`next=()=>{ next() }` 递归执行实现。只要规定好函数体内部的`next` 的执行时机。
-
+  
     - [x] :star:如何控制异步任务的串行，这里思考了三种写法：
-
+  
       - [x] 回调地狱写法：`useCallback()`
-
+  
       - [x] 封装 `promiseTask` 解决串行问题,使用`callback()` 标识任务结束，`callback` 由 `promisify` 传入 `resolve()`  函数，通过循环`.then`  操作串联 `promise` 操作。
-
+  
       - [x] 自定义 `next`函数。
   
         模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
