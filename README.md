@@ -94,6 +94,30 @@
       - [x] 自定义 `next`函数。
   
         模拟回调地狱与 `callback`写法，构建`next=()=>{ task(next) }` +  闭包缓存 `task` 变量。
+  
+- [ ] underscore函数库
+  评价：一开始觉得很难，函数有些绕，实则底层实现比较简单，基础`js` 知识点覆盖较少，后续该函数库的实现不会继续更新，比较适合前端3个月阶段练习。
+  
+  - [ ] `collection` 集合类函数（同时支持 `array` 和 `object`）
+    - [x] `each`
+    - [x] `every`,`some`
+    - [x] `filter`
+    - [x] `map` （区分开来写比较清晰）
+    - [x] :star: `reduce` 和 `reduceRight`
+  
+  - [ ] 矩阵
+    - [x] `findIndex` 以及 `findLastIndex` （同`reduce` 和 `reduceRight`）
+  - [ ] 实用函数
+    - [x] `escape` 以及 `unescape` ：通过构造`createEscaper` 函数
+  
+  - [ ] 帮助函数`help.ts`
+    - [x] 如何安全获取 `arr?.length` 的 `shallowProperty`
+    - [x] 如何判断`object`?
+    - [x] `Object.keys`的另一种写法
+    - [x] `isArray` 以及 `isArrayLike` ：万金油判断 + 存在`length`
+  
+  
+  
 
 ## 题库收集：
 
